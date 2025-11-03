@@ -1,0 +1,49 @@
+.sidebar{
+    background-color: #21201E;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 210px;
+    justify-content: space-between;
+    padding:20px;
+    box-shadow: 0 0 20px #6100c248;
+
+ 
+    top: 0;
+}
+
+.logo h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.menu, .menu-bottom{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.menu a, .menu-bottom a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover, .menu-bottom a:hover {
+    color: #a855f7;
+    /* Roxo no hover */
+}
+
+.menu-icons-top{
+    margin-bottom: 20px;
+}
+
+*{
+    font-family: 'Poopins';
+}
