@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar2.css'
+import user  from '../../assets/Captura de tela 2025-10-26 202028.png'
 
 function Navbar2({ busca, setBusca }) {
     const [showSearch, setShowSearch] = useState(false);
@@ -33,7 +34,7 @@ function Navbar2({ busca, setBusca }) {
                 )}
 
                 <div className='img'>
-
+                    <img src={user} width={30}></img>
                     <p>Osvaldo</p>
                 </div>
 

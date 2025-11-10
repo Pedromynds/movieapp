@@ -17,7 +17,7 @@ function Navbar() {
                     <div className='menu-icons-top'>
                         <Link to="/"><FaHome /> Home</Link>
                         <Link to="/favoritos"><FaHeart /> Favorites</Link>
-                        <Link to="/"><FaChartLine /> Trending</Link>
+                        <Link to="/emAlta"><FaChartLine />Trending</Link>
                         <Link to="/"><FaCalendarAlt /> Coming soon</Link>
                     </div>
                     

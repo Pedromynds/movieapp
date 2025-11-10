@@ -14,22 +14,19 @@
     border-radius: 18px;
 }
 
-
 .header-content {
     position: absolute;
     bottom: 30px;
     left: 30px;
     color: white;
     max-width: 100%;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
-
 
 .header-content h1 {
     font-size: 2rem;
     margin: 0;
 }
-
 
 .header-content p {
     font-size: 1.2rem;
@@ -40,14 +37,13 @@
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
-    background: red;
+    background: #ff3c3c;
     color: white;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
 }
 
 .header-content button:hover {
-    background: red;
+    background: #e03232;
 }
-
